@@ -6,43 +6,43 @@ public class AnimalsTest {
 	
 	@Test
 	public void testing_crocodile() {
-		Class parent = Animal.class;
-		Class child = Crocodile.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Animal parent = new Animal();
+		Crocodile child = new Crocodile();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 
 	@Test
 	public void testing_lion() {
-		Class parent = Animal.class;
-		Class child = Lion.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Animal parent = new Animal();
+		Lion child = new Lion();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 
 	@Test
 	public void testing_ostrich() {
-		Class parent = Animal.class;
-		Class child = Ostrich.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Animal parent = new Animal();
+		Ostrich child = new Ostrich();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 
 	@Test
 	public void testing_zebra() {
-		Class parent = Animal.class;
-		Class child = Zebra.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Animal parent = new Animal();
+		Zebra child = new Zebra();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 
 	@Test
 	public void testing_saltwater_crocodile() {
-		Class parent = Animal.class;
-		Class child = SaltwaterCrocodile.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Animal parent = new Animal();
+		SaltwaterCrocodile child = new SaltwaterCrocodile();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 
 	@Test
 	public void testing_saltwater_crocodile2() {
-		Class parent = Crocodile.class;
-		Class child = SaltwaterCrocodile.class;
-		assertTrue( parent.isAssignableFrom(child) );
+		Crocodile parent = new Crocodile();
+		SaltwaterCrocodile child = new SaltwaterCrocodile();
+		assertEquals(true, parent.getClass().isAssignableFrom(child.getClass()) );
 	}
 }
