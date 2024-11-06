@@ -1,4 +1,5 @@
-public class Crocodile {
+package animals;
+public class SaltwaterCrocodile {
 	// Attributes
 	public String species;
 	public String genus;
@@ -6,6 +7,7 @@ public class Crocodile {
 	public int lifespan;
 	public float bite_force;
 	public float swim_speed;
+	public float length;
 
 	// Methods
 	public void show_taxonomy() {
@@ -22,5 +24,8 @@ public class Crocodile {
 	}
 	public void swim() {
 		System.out.println("Crocodiles can swim up to "+ swim_speed + " mph.");
+	}
+	public void size() {
+		System.out.println("Saltwater Crocodile is the largest Croc being " + length + " ft long.");
 	}
 }

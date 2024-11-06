@@ -1,3 +1,4 @@
+package animals;
 public class Zebra {
 	// Attributes
 	public String species;

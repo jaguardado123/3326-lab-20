@@ -1,11 +1,12 @@
-public class Ostrich {
+package animals;
+public class Lion {
 	// Attributes
 	public String species;
 	public String genus;
 	public String biome;
 	public int lifespan;
-	public float wingspan;
-	public float height;
+	public float claw_size;
+	public float fang_size;
 
 	// Methods
 	public void show_taxonomy() {
@@ -17,10 +18,10 @@ public class Ostrich {
 	public void lifespan() {
 		System.out.println("Can live up to " + lifespan + " years.");
 	}
-	public void wings() {
-		System.out.println("Ostriches have a " + wingspan + " m wingspan.");
+	public void claws() {
+		System.out.println("Lions have " + claw_size + " cm claws.");
 	}
-	public void neck_length() {
-		System.out.println("Ostriches have a " + (height / 2.f) + " m long neck.");
+	public void fangs() {
+		System.out.println("Lions have " + fang_size + " cm fangs.");
 	}
 }

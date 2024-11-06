@@ -1,11 +1,12 @@
-public class Lion {
+package animals;
+public class Crocodile {
 	// Attributes
 	public String species;
 	public String genus;
 	public String biome;
 	public int lifespan;
-	public float claw_size;
-	public float fang_size;
+	public float bite_force;
+	public float swim_speed;
 
 	// Methods
 	public void show_taxonomy() {
@@ -17,10 +18,10 @@ public class Lion {
 	public void lifespan() {
 		System.out.println("Can live up to " + lifespan + " years.");
 	}
-	public void claws() {
-		System.out.println("Lions have " + claw_size + " cm claws.");
+	public void bite() {
+		System.out.println("Crocodiles have a " + bite_force + " PSI biteforce.");
 	}
-	public void fangs() {
-		System.out.println("Lions have " + fang_size + " cm fangs.");
+	public void swim() {
+		System.out.println("Crocodiles can swim up to "+ swim_speed + " mph.");
 	}
 }

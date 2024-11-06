@@ -1,4 +1,4 @@
-# Lab Assignment 19
+# Lab Assignment 20
 
 In this lab you will practice working with inheritance.
 
