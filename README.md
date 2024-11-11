@@ -56,11 +56,11 @@ To learn more about inheritance in Java visit: https://www.w3schools.com/java/ja
 
 For this assignment you are provided with 6 classes: `Animal`, `Crocodile`, `Lion`, `Ostrich`, `SaltwaterCrocodile` and `Zebra`. 
 
-Refactor (improve) the code inside the classes to make them more efficient using **inheritance**
+Refactor (improve) the code inside the classes by **encapsulating** all of the atrributes. This may seem like too much work! Luckily, we can use **inheritance** to make our work easier.
 
-**Hint:** Start by identifying the Super Class first.
+**Hint:** Start by identifying the Super Class first. (What do a crocodile, lion, ostrich, and zebra all have in common?)
 
-After refactoring your code, each class should still perform the same as it did before.
+After refactoring your code, run the test below to test your code.
 
 **Test Your Code:**
 

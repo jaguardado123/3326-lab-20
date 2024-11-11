@@ -1,19 +1,41 @@
 package animals;
+
 public class Animal {
+	// Hmm, all attributes here are already encapsulated...
+	//  Could this be a hint?
+
 	// Attributes
-	public String species;
-	public String genus;
-	public String biome;
-	public int lifespan;
+	private String species;
+	private String genus;
+	private int lifespan;
 
 	// Methods
-	public void show_taxonomy() {
-		System.out.println("Species: " + species + ", Genus: " + genus);
+	// Setter Methods
+	public void set_species( String s) {
+		if (!s.isEmpty())
+			species = s;
 	}
-	public void show_habitat() {
-		System.out.println("Lives in " + biome + " regions.");
+
+	public void set_genus( String g) {
+		if (!g.isEmpty())
+			genus = g;
 	}
-	public void lifespan() {
-		System.out.println("Can live up to " + lifespan + " years.");
+
+	public void set_lifespan( int l) {
+		if (l >= 0)
+			lifespan = l;
+	}
+
+	// Getter Methods
+	public String get_species() {
+		return species;
+	}
+
+	public String get_genus() {
+		return genus;
+	}
+
+	public int get_lifespan() {
+		return lifespan;
 	}
 }
