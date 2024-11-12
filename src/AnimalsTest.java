@@ -16,7 +16,7 @@ public class AnimalsTest {
 
 		// Testing for encapsulation
 		child.set_biteForce(2.5f);
-		assertArrayEquals(true, child.get_biteForce() == 2.5f);
+		assertEquals(true, child.get_biteForce() == 2.5f);
 	}
 
 	@Test
@@ -28,7 +28,7 @@ public class AnimalsTest {
 
 		// Testing for encapsulation
 		child.set_clawSize(2.5f);
-		assertArrayEquals(true, child.get_clawSize() == 2.5f);
+		assertEquals(true, child.get_clawSize() == 2.5f);
 	}
 
 	@Test
@@ -40,7 +40,7 @@ public class AnimalsTest {
 
 		// Testing for encapsulation
 		child.set_wingspan(2.5f);
-		assertArrayEquals(true, child.get_wingspan() == 2.5f);
+		assertEquals(true, child.get_wingspan() == 2.5f);
 	}
 
 	@Test
@@ -52,7 +52,7 @@ public class AnimalsTest {
 
 		// Testing for encapsulation
 		child.set_hoofSize(2.5f);
-		assertArrayEquals(true, child.get_hoofSize() == 2.5f);
+		assertEquals(true, child.get_hoofSize() == 2.5f);
 	}
 
 	@Test
@@ -66,6 +66,6 @@ public class AnimalsTest {
 
 		// Testing for encapsulation
 		child.set_size(2.5f);
-		assertArrayEquals(true, child.get_size() == 2.5f);
+		assertEquals(true, child.get_size() == 2.5f);
 	}
 }
