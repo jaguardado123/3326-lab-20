@@ -70,6 +70,6 @@ After refactoring your code, run the test below to test your code.
 
 ## Submit your assignment
 
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_19.pdf)
+[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_20.pdf)
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
