@@ -1,14 +1,9 @@
 package animals;
 
 public class Crocodile {
-	// Attributes
-	public String species;
-	public String genus;
-	public int lifespan;
 
-	public float bite_force;
+	// Attributes: species (String), genus (String), lifespan (int), bite_force (float)
 
-	// Methods
-	// Use set_biteForce() and get_biteForce().
-
+	// Methods: about()
+		
 }

@@ -1,14 +1,9 @@
 package animals;
 
 public class SaltwaterCrocodile {
-	// Attributes
-	public String species;
-	public String genus;
-	public int lifespan;
 
-	public float bite_force;
-	public float size;
+	// Attributes: species (String), genus (String), lifespan (int), bite_force (float), length (float)
 
-	// Methods
-	// Use set_size() and get_size().
+	// Methods: about()
+
 }

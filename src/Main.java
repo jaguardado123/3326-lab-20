@@ -1,8 +1,8 @@
 // Import all classes from animals package.
 
-// Use the Main class to test your code.
 public class Main {
     public static void main(String[] args) throws Exception {
-        // You can create test your code in here.
+        // You can create your objects here to see how inheritance works.
+
     }
 }

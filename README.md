@@ -10,7 +10,7 @@ Now let's begin!
 
 ### Inheritance
 
-**Inheritance** is an important concept of OOP, it refers to the process of a class inheriting (receiving) attributes and/or methods from another class. Why use inheritance?
+**Inheritance** is an important concept of OOP, it refers to the process of one class getting access (extending) to another class to use its attributes and/or methods. Why use inheritance?
 
 When creating a new class you may realize you're creating the exact same methods and attributes another class already has.
 
@@ -28,9 +28,9 @@ class Falcon {
 }
 ```
 
-As you can see, class `Falcon` has two attributes: `beak_size` and `wing_span`, that class `Bird` already has. To make our code more efficient, we can instead **inherit** those attributes from `Brid` to `Falcon`. We can do this using the `extends` keyword in the following format.
+As you can see, class `Falcon` has two attributes: `beak_size` and `wing_span`, that class `Bird` already has. To make our code more efficient, we can instead have `Falcon` **inherit** those attributes from `Brid`. We can do this using the `extends` keyword in the following format.
 
-&emsp;**Super_Class *extends* Sub_Class**
+&emsp;**Sub_Class *extends* Super_Class**
 
 **For Example:**
 ```java
@@ -48,19 +48,39 @@ class Falcon extends Bird {
 
 The class that will pass on its attributes and/or methods is referred to as the **Super Class** and the class receiving them is referred to as the **Sub Class**.
 
-To learn more about inheritance in Java visit: https://www.w3schools.com/java/java_inheritance.asp
+To learn more about inheritance in Java visit: https://www.w3schools.com/java/java_inheritance.asp and https://www.programiz.com/java-programming/inheritance
 
 ## Your Assignment
 
 ### Animal Classification
 
-For this assignment you are provided with 6 classes: `Animal`, `Crocodile`, `Lion`, `Ostrich`, `SaltwaterCrocodile` and `Zebra`. 
+For this assignment you are provided with 5 classes: `Animal`, `Lion`, `Zebra`, `Crocodile`, and `SaltwaterCrocodile`. 
 
-Refactor (improve) the code inside the classes by **encapsulating** all of the atrributes. This may seem like too much work! Luckily, we can use **inheritance** to make our work easier.
+Each class should have the following **public** memebers:
 
-**Hint:** Start by identifying the Super Class first. (What do a crocodile, lion, ostrich, and zebra all have in common?)
+**Animal:**
+- species (String), genus (String), lifespan (int)
+- about() -> should print out all attributes.
 
-After refactoring your code, run the test below to test your code.
+**Lion:**
+- species (String), genus (String), lifespan (int), claw_size (float)
+- about() -> should print out all attributes.
+
+**Zebra**
+- species (String), genus (String), lifespan (int), hoof_size (float)
+- about() -> should print out all attributes.
+
+**Crocodile**
+- species (String), genus (String), lifespan (int), bite_force (float)
+- about() -> should print out all attributes.
+
+**SaltwaterCrocodile**
+- species (String), genus (String), lifespan (int), bite_force (float), length (float)
+- about() -> should print out all attributes.
+
+A lot of repeating attributes and methods right? See how you can use inheritance to shorten your code and avoid repeating any code. **Hint:** You may be able to use *chain inheritance* somewhere here.
+
+Run the test below to test your code.
 
 **Test Your Code:**
 
