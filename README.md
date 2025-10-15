@@ -1,6 +1,6 @@
-# Lab Assignment 20
+# Lab 20
 
-In this lab you will practice working with inheritance.
+In this lab you will practice working with **Inheritance**.
 
 Unlike previous labs, your class has already been created for you. 
 
@@ -87,9 +87,15 @@ Run the test below to test your code.
 ```
 ./test.sh
 ```
+<br>
 
-## Submit your assignment
-
-[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_20.pdf)
+**Grading Criteria:**
+| Criteria | Points |
+|---|---|
+| Program passes all the test cases. | 60 (15 per test) |
+| Lion class inherits Animal class. | 10 |
+| Zebra class inherits Animal class. | 10 |
+| Crocodile class inherits Animal class. | 10 |
+| SaltwaterCrocodile class inherits Crocodile class. | 10 |
 
 [How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
