@@ -1,4 +1,4 @@
-# Lab 20
+# Lab - Inheritance: Single & Chain
 
 In this lab you will practice working with **Inheritance**.
 
@@ -87,15 +87,3 @@ Run the test below to test your code.
 ```
 ./test.sh
 ```
-<br>
-
-**Grading Criteria:**
-| Criteria | Points |
-|---|---|
-| Program passes all the test cases. | 60 (15 per test) |
-| Lion class inherits Animal class. | 10 |
-| Zebra class inherits Animal class. | 10 |
-| Crocodile class inherits Animal class. | 10 |
-| SaltwaterCrocodile class inherits Crocodile class. | 10 |
-
-[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
